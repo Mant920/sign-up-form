@@ -1,14 +1,26 @@
 .container
 {
     display: flex;
-    justify-content:flex-start;
+    flex-direction: row;
+
 }
 .left-part{
-    background-image: url(cape_town.jpg);
-    background-attachment: fixed;
-    background-size:contain;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 100vh;
     
+    position: relative;
+    text-align: center;
+    
+    
+}
+.thecape{
+    height: 100vh;
+    width: 50vw;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+a{
+    color: white;
 }
