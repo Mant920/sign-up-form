@@ -1,0 +1,14 @@
+.container
+{
+    display: flex;
+    justify-content:flex-start;
+}
+.left-part{
+    background-image: url(cape_town.jpg);
+    background-attachment: fixed;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100vh;
+    
+}
