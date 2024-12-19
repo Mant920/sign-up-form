@@ -57,8 +57,14 @@ a{
 .first{
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 .second{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.the_form{
     display: flex;
     flex-direction: column;
 }
