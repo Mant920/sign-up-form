@@ -64,7 +64,16 @@ a{
 }
 .error{
     display: none;
+    color:red;
 }
 .success{
     display: none;
+    color: green;
 }
+#user_email:invalid {
+    border-color: red;
+  }
+  
+#user_email:valid {
+    border-color: green;
+  }
