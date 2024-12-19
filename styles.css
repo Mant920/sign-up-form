@@ -21,6 +21,9 @@
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 50vw;
+
 }
 .credit{
     position: absolute;
@@ -32,6 +35,7 @@
 
 a{
     color: white;
+    text-decoration: underline;
 }
 .right-part{
     display: flex;
@@ -44,12 +48,19 @@ a{
 }
 .mid{
     background-color: #F5EFFF;
+    padding-bottom: 100px;
+    
 }
 h2{
     text-align: center;
 }
 .bottom{
     background-color: #CDC1FF;
+    padding-bottom: 120px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .info{
     display: flex;
@@ -86,3 +97,37 @@ h2{
 #user_email:valid {
     border-color: green;
   }
+
+button{
+    border-radius: 8px;
+    background-color:aqua;
+    font-size: 20px;
+    border: solid white;
+    color: white;
+}
+.button {
+    transition-duration: 0.2s;
+  }
+  
+.button:hover {
+    background-color:black; 
+  }
+
+.first_word{
+    color:white;
+}
+.alph1,.alph6{
+    color: white;
+}
+.alph2,.alph7{
+    color: green;
+}
+.alph3,.alph8{
+    color: gold;
+}
+.alph4,.alph9{
+    color:blue;
+}
+.alph5{
+    color: red;
+}
