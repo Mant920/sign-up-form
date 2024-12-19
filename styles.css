@@ -2,6 +2,7 @@
 {
     display: flex;
     flex-direction: row;
+    gap: 2px;
 
 }
 .left-part{
@@ -17,10 +18,47 @@
 }
 .title{
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.credit{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    
+    color: white;
+}
+
 a{
     color: white;
+}
+.right-part{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.top{
+    background-color: #E5D9F2;
+    padding: 120px;
+}
+.mid{
+    background-color: #F5EFFF;
+}
+.bottom{
+    background-color: #CDC1FF;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+}
+.second{
+    display: flex;
+    flex-direction: column;
 }
