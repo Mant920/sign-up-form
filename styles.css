@@ -62,3 +62,9 @@ a{
     display: flex;
     flex-direction: column;
 }
+.error{
+    display: none;
+}
+.success{
+    display: none;
+}
