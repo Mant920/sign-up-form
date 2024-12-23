@@ -44,19 +44,46 @@ a{
 }
 .top{
     background-color: #E5D9F2;
-    padding: 120px;
+    padding: 85px;
 }
 .mid{
     background-color: #F5EFFF;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
     
 }
 h2{
     text-align: center;
 }
+.heading{
+    font-family: "Roboto",serif;
+    font-weight: 200;
+    font-size:50px;
+}
+.message{
+    font-family: "Roboto",serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+label{
+    font-family: "Roboto",serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+.signup{
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.acc{
+    font-family: "Roboto",serif;
+    font-weight: 200;
+}
+.info{
+    padding-top: 30px;
+}
 .bottom{
     background-color: #CDC1FF;
-    padding-bottom: 120px;
+    padding-bottom: 85px;
     padding-top: 40px;
     display: flex;
     flex-direction: column;
