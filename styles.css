@@ -105,11 +105,11 @@ button{
     border: solid white;
     color: white;
 }
-.button {
+button {
     transition-duration: 0.2s;
   }
   
-.button:hover {
+button:hover {
     background-color:black; 
   }
 
